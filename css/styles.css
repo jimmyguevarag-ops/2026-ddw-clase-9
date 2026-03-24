@@ -1,7 +1,33 @@
-p{
+/* Display */
+/* p{
     display: inline;
 }
 
 a{
     display: block;
+} */
+
+
+.button-gray{
+    padding: 8px;
+    border: 1px solid black;
+    margin-right: 10px;
+
+    /* Extras */
+    font-size: 12px;
+    background: gray;
+    color: white;
+    text-decoration: none;
+}
+
+.elem-absolute{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+.wrap-relative{
+    position: relative;
+    border: 1px solid black;
+    height: 200px;
 }
