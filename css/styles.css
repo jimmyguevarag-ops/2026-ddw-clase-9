@@ -8,18 +8,18 @@ a{
 } */
 
 
-.button-gray{
+/* .button-gray{
     padding: 8px;
     border: 1px solid black;
     margin-right: 10px;
 
-    /* Extras */
+    
     font-size: 12px;
     background: gray;
     color: white;
     text-decoration: none;
-}
-
+} */
+/* 
 .elem-absolute{
     position: absolute;
     bottom: -20px;
@@ -30,4 +30,24 @@ a{
     position: relative;
     border: 1px solid black;
     height: 200px;
+} */
+
+
+/* Ejercicio abeja */
+.wrap-bosque{
+    background-image: url('../img/bosque.avif');
+    position: relative;
+    height: 300px;
+}
+
+.wrap-verde{
+    background-color: green;
+    height: 300px;
+}
+
+img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
 }
