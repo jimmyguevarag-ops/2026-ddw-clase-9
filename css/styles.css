@@ -34,7 +34,7 @@ a{
 
 
 /* Ejercicio abeja */
-.wrap-bosque{
+/* .wrap-bosque{
     background-image: url('../img/bosque.avif');
     position: relative;
     height: 300px;
@@ -50,4 +50,72 @@ img{
     bottom: 0;
     right: 0;
     width: 50px;
+} */
+
+
+
+
+
+
+
+/* Floats */
+/* .container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header{
+    background-color: #caca;
+}
+
+#body{
+    background-color: tomato;
+    width: 600px;
+    float: left;
+}
+
+#sidebar{
+    background-color: aqua;
+    width: 200px;
+    float: left;
+}
+
+#footer{
+    background-color: peru;
+} */
+
+
+/* Ejercicio 2 */
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header{
+    background-color: #caca;
+}
+
+.content-children{
+    width: 250px;
+    background-color: tomato;
+    float: left
+}
+
+#footer div{
+    width: 500px;
+    background-color: peru;
+    float: left;
 }
